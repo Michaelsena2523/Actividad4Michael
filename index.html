@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla y Formulario Avanzado</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Tabla Avanzada</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Selección Múltiple</th>
+        <th>Check-in</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>jose</td>
+        <td>Descripción del producto A</td>
+        <td>Esta trabajando</td>
+        <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>juan</td>
+        <td>Descripción del producto B</td>
+        <td>Esta trabajando</td>
+        <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>lospez</td>
+        <td>Descripción del producto C</td>
+        <td>Esta trabajando</td>
+        <td><input type="checkbox"></td>
+    </tr>
+</table>
+
+<h2>Formulario</h2>
+<form>
+    <label for="nombre">Por favor ingrese sus nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+    <label for="nombre">Por favor ingrese sus apellido</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+    <label for="nombre">Por favor ingrese aque se dedica</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+    <label for="nombre">Por favor ingrese sus edad</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+    <label for="">ingrese sus fecha de nacimiento</label><br>
+    <input type="date" name="" id=""><br><br>
+    
+    <label for="opciones">Selección</label><br>
+    <input type="checkbox" id="opcion1" name="opciones" value="Opción 1"> hombre<br>
+    <input type="checkbox" id="opcion2" name="opciones" value="Opción 2"> mujer<br>
+    <input type="checkbox" id="opcion3" name="opciones" value="Opción 3"> niño<br>
+    <input type="checkbox" id="opcion4" name="opciones" value="Opción 4"> niña<br><br>
+
+    <label>Usted mayor de edad</label><br>
+    <input type="radio" id="si" name="checkin" value="si" required> Sí<br>
+    <input type="radio" id="no" name="checkin" value="no" required> No<br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
